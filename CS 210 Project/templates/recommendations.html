@@ -1,0 +1,8 @@
+{% if recommendations %}
+        <h2>Recommended Products:</h2>
+        <ul>
+            {% for product in recommendations %}
+                <li>{{ product }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
